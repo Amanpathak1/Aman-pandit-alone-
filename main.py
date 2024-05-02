@@ -41,7 +41,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["Alone2"]))
+@bot.on_message(filters.command(["panditji"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('Send me **TXT File**⚡️')
     input: Message = await bot.listen(editable.chat.id)
@@ -207,7 +207,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("**DONE Alone boy BRO 😎**")
+    await m.reply_text("**DONE Pandit ji😎**")
 
 
 bot.run()
