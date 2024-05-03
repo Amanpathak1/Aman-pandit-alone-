@@ -24,11 +24,11 @@
             "required": true
         },
         "OWNER_ID": {
-            "description": "71564125102",
+            "description": "6352927253",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "71564126102",
+            "description": "6352927253",
             "required": true
         }
     },
